@@ -1,11 +1,11 @@
 {
   "day": 1,
-  "student_name": "Your Full Name",
-  "github": "your-github-username",
+  "student_name": "Aryaman Narain Pandey",
+  "github": "AryamanPandey-art",
 
   "lab2_team": "Team Name (e.g. Team Alpha)",
   "lab2_model_used": "SmolLM2-360M-Instruct",
-  "lab2_gradio_url": "https://xxxx.gradio.live",
+  "lab2_gradio_url": "https://1b48862c6448c2ed84.gradio.live/",
 
   "lab": "model_face_off",
   "p1_winner": "chatgpt",
