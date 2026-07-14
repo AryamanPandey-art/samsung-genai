@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Aryaman Narain Pandey",
+  "github": "AryamanPandey-art",
+  "lab1_scenario": "A",
+  "lab1_prompt": "Role:You are a Samsung Care+ customer support executive responding to an escalated warranty complaint.\nGoal:Draft a response that acknowledges the customer's frustration, explains the next support steps, and resolves the issue without promising a refund.\nContext:The customer is reporting the third Galaxy Watch battery complaint this month. The device is still under warranty.\nConstraint:Keep the solution in under 100 words offering real time feasible solution without promising a refund.\nStyle/Tone:Professional, courteous and a bit apologetic\nOutput Format:Write a customer-facing email with:\n\nGreeting\nAcknowledgement\nRecommended next steps\nClosing",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 0,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "It gave the number 4299\nReasoning:-\nStarting inventory: 4,200\nUnits sent out: 4,200 − 850 = 3,350\nHold back 6% of remaining stock:\n6% of 3,350 = 201\nAvailable after hold = 3,350 − 201 = 3,149\nRestock: 3,149 + 1,150 = 4,299",
+  "lab2_cot_prompt": "Work through this problem step by step before giving the final answer. First calculate the remaining stock after sending out 850 units from 4200. Then calculate 6% of the remaining stock to hold back. Subtract the held stock from the remaining stock, add the 1150 restocked units, show each calculation clearly, and finally state the number of Galaxy Buds units available for sale by the end of the day.",
+  "lab2_cot_output_summary": "The AI calculated the inventory in sequential steps: 4200 − 850 = 3350, held back 6% (201 units), leaving 3149 units, then added the 1150 restocked units to reach 4299. The reasoning was clear and each calculation was shown before giving the final answer.",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "Before giving the final answer, identify whether the problem requires arithmetic or external information. If it requires arithmetic, perform each calculation step explicitly, verify the math once, and only then provide the final answer. If any information is missing or ambiguous, state what additional information is needed instead of guessing.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-14T10:07:17.944Z"
+}
