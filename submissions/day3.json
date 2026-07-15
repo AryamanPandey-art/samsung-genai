@@ -1,0 +1,20 @@
+{
+  "day": 3,
+  "student_name": "Aryaman Narain Pandey",
+  "github": "AryamanPandey-art",
+  "ir_hallucination_done": true,
+  "ir_bias_done": true,
+  "ir_guardrail_builder_done": true,
+  "ir_battle_complete": true,
+  "ir_battle_blocked": 8,
+  "ir_battle_total": 8,
+  "rag_scenario": "C",
+  "rag_no_rag_summary": "The model answered that the Galaxy Book5 Pro supports up to 32 GB RAM and indicated the memory is likely soldered, so RAM upgrades are not supported. The answer sounded confident but relied on general product knowledge rather than the provided specification.",
+  "rag_grounded_summary": "With the provided specification, the model correctly answered that the Galaxy Book5 Pro offers up to 32 GB LPDDR5X RAM and that the memory is soldered, so it cannot be upgraded after purchase.",
+  "rag_judgement": "confirmed_right",
+  "stretch_done": true,
+  "stretch_notes": "I compared the model's memory-only answer with the answer using the provided specification. The RAG version stayed grounded in the document and confirmed the official RAM limit (32 GB) and that the memory is not user-upgradeable.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T06:57:38.702Z"
+}
