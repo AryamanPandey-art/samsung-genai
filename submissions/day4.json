@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Aryaman Narain Pandey",
+  "github": "AryamanPandey-art",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The chatbot confidently fabricated a discount policy that did not exist, leading to incorrect business decisions."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "The assistant secretly logged sensitive employee conversations without users' knowledge or consent."
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Transparency",
+      "justification": "An AI-generated fake executive video spread as real news, misleading the public before it was identified."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The resume screener unfairly penalized applicants from women's colleges, resulting in discriminatory hiring outcomes."
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "No one monitored the moderation system, allowing biased removals to continue unchecked for weeks."
+    },
+    {
+      "id": "F",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Security",
+      "justification": "Voice-cloning technology was used to impersonate an executive and fraudulently authorize a financial transfer."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Air Canada Chatbot",
+  "stretch_failure_type": "Hallucination",
+  "stretch_principle": "Reliability",
+  "stretch_notes": "Air Canada's AI chatbot incorrectly told a passenger they could claim a bereavement fare after purchasing a ticket. The airline later refused the refund, but a tribunal ruled that Air Canada was responsible for the chatbot's inaccurate information, highlighting the need for reliable AI systems",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-16T04:59:55.962Z"
+}
